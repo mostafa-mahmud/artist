@@ -7,6 +7,7 @@ a:hover{cursor:pointer}
 html{transition:all 1s ease-in-out}
 body{background-color:#fff}
 .bu{border:none;border-radius:20px;background-image:linear-gradient(57deg,#048442 0,#00ff7b 100%)}
+H2,H3,h1{font-weight:100}
 header> nav{height:65px;transition:all 1s ease-in-out;width:100%;background-color:rgba(0,0,0,.3);overflow:hidden;text-transform:capitalize;position:absolute;z-index:2000;top:0}
 header> nav> div.container{transition:all 1s ease-in-out;height:100%;max-width:1238px}
 header> nav> div.container> a> img{height:45px;float:left;margin-top:5px}
