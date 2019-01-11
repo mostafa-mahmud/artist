@@ -1,0 +1,184 @@
+*{font-family:sans-serif;margin:0;padding:0;box-sizing:border-box}
+.clear-fix{clear:both}
+div.container{margin:0 auto;max-width:1238px}
+div.con{margin:0 auto;max-width:1070px}
+a{color:#f5f6f6;text-decoration:none;transition:all .5s ease-in-out}
+a:hover{cursor:pointer}
+html{transition:all 1s ease-in-out}
+body{background-color:#fff}
+.bu{border:none;border-radius:20px;background-image:linear-gradient(57deg,#048442 0,#00ff7b 100%)}
+header> nav{height:65px;transition:all 1s ease-in-out;width:100%;background-color:rgba(0,0,0,.3);overflow:hidden;text-transform:capitalize;position:absolute;z-index:2000;top:0}
+header> nav> div.container{transition:all 1s ease-in-out;height:100%;max-width:1238px}
+header> nav> div.container> a> img{height:45px;float:left;margin-top:5px}
+header> nav> div.container> ul{height:60px;float:left;margin-left:30px}
+header> nav> div.container> ul li{float:left;list-style-type:none;text-align:center;padding:8px;padding-top:10px;padding-bottom:10px;margin:5px;margin-top:10px;transition:all .5s ease-in-out}
+header> nav> div.container> ul> li.active{border-bottom:1px solid #00a651}
+header> nav> div.container> ul:first-of-type> li:last-of-type{margin-left:20px}
+header> nav> div.container> ul> li.active a{color:#00a651}
+header> nav> div.container> ul> li:hover{cursor:pointer;border-bottom:1px solid #00a651}
+header> nav> div.container> ul> li:hover a{color:#00a651}
+header> nav> div.container> ul:first-of-type{text-transform:uppercase;font-size:.7em}
+header> nav> div.container> ul:last-of-type{text-transform:capitalize;float:right}
+header> nav> div.container> ul:last-of-type> li:nth-child(4){border:none;padding-right:20px;padding-left:20px;border-radius:20px;background-image:linear-gradient(57deg,#048442 0,#00ff7b 100%)}
+header> nav> div.container> ul:last-of-type> li:nth-child(4) a{color:#fff}
+header> nav> div.container> ul:last-of-type> li:last-of-type{border:none;margin-top:5px}
+header> nav> div.container> ul:last-of-type> li button{cursor:pointer;width:40px;background-color:transparent;border:none}
+header> nav> div.container> ul:last-of-type> li button> span{transition:all 3s ease-in-out;width:60%;color:#fff;display:block;margin:5px auto;border:1px solid #fff;border-radius:50px}
+header main.scroll{background-image:url(../photos/kids-girl-pencil-drawing-159823.jpg);background-position:center;height:700px;overflow:hidden}
+header main.scroll .scroll-back{height:100%;width:100%;background-color:rgba(0,0,0,.5);overflow:hidden}
+header main.scroll .container{height:100%}
+header main.scroll .container> button,header main.scroll .container> h1,header main.scroll .container> img,header main.scroll .container> p,header main.scroll .container> span{color:#fff;display:block;margin:18px auto;text-align:center}
+header main.scroll .container> img{margin-top:180px}
+header main.scroll .container> h1{font-size:3em}
+header main.scroll .container> p{font-size:1.5em}
+header main.scroll .container> button{font-size:1em;padding:13px;padding-right:40px;padding-left:40px}
+header main.scroll .container> button:hover{cursor:pointer}
+header main.scroll .container> span{margin-top:90px;width:50px;height:50px;line-height:3;border-radius:50%;border:1px solid #fff}
+header main.scroll .container> span:hover{cursor:pointer}
+div.content> div.statestics{padding-top:100px;padding-bottom:50px}
+div.content> div.statestics> div.con> div> section{overflow:hidden;width:20%;margin-right:26px;margin-left:26px;float:left}
+div.content> div.statestics> div.con> div> section> h2{font-size:3.5em;padding:10px}
+div.content> div.statestics> div.con> div> section> h2 span:first-of-type{color:#00b755}
+div.content> div.statestics> div.con> div> section> h2 span:nth-of-type(2){color:#01cf65}
+div.content> div.statestics> div.con> div> section> h2 span:last-of-type{color:#00f176}
+div.content> div.statestics> div.con> div> section> p{color:#333;font-size:1.2em}
+div.content> div.statestics> div.con> div> section> span{display:block;width:20%;margin-top:10px;border-bottom:2px solid #00a651}
+.our-activites{padding-top:50px;padding-bottom:50px}
+.our-activites> h2{color:#353535;text-align:center;padding-bottom:35px;font-size:2em}
+.our-activites> h2 span{width:2px;margin-top:10px;border-bottom:2px solid #00a651;padding-bottom:10px}
+.our-activites> .con{height:350px}
+.our-activites> .con> .directional_nav{height:0;margin-top:130px}
+.our-activites> .con .slider{margin:0 auto;max-width:900px}
+.our-activites> .con .slider .slide_viewer{height:270px;overflow:hidden;position:relative}
+.our-activites> .con .slider .slide_viewer .slide_group{height:100%;position:relative;width:100%}
+.our-activites> .con .slider .slide_viewer .slide{display:none;height:100%;position:absolute;width:100%;background-color:transparent;border:2px solid #f1f1f1}
+.our-activites> .con .slider .slide_viewer .slide div:first-child{float:left;width:39%}
+.our-activites> .con .slider .slide_viewer .slide div img:first-of-type{float:left;width:100%;display:block}
+.our-activites> .con .slider .slide_viewer .slide div img:last-of-type,.our-activites> .con .slider .slide_viewer .slide div img:nth-of-type(2){height:110px;float:left;width:50%;display:block}
+.our-activites> .con .slider .slide_viewer .slide div:last-child{float:left;width:61%}
+.our-activites> .con .slider .slide_viewer .slide div h2{color:#00a651;padding:15px}
+.our-activites> .con .slider .slide_viewer .slide div p{color:#333;padding:15px;font-size:.8em;line-height:1.4}
+.our-activites> .con .slider .slide_viewer .slide div a{color:#00a651;padding:5px;position:absolute;bottom:20px;right:20px;border-bottom:1px solid #00a651}
+.our-activites> .con .slider .slide_viewer .slide div a:hover{cursor:pointer}
+{height:0}
+.slide_buttons{margin-top:30px;left:0;position:absolute;right:0;text-align:center}
+a.slide_btn{color:#c4c4c4;font-size:42px;margin:0 .175em;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.slide_btn.active,.slide_btn:hover{color:#00a651;cursor:pointer}
+.directional_nav{height:300px;margin:0 auto;max-width:940px;position:relative;top:-300px}
+.previous_btn{bottom:0;left:-60px;margin:auto;position:absolute;top:0}
+.next_btn{bottom:0;margin:auto;position:absolute;right:-60px;top:0}
+.next_btn,.previous_btn{cursor:pointer;height:65px;opacity:.5;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-ms-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;transition:opacity .4s ease-in-out;width:65px}
+.next_btn:hover,.previous_btn:hover{opacity:1}
+@media only screen and (max-width:767px){.previous_btn{left:50px}
+.next_btn{right:50px}}
+.last-news{height:700px;margin-top:50px;margin-bottom:50px}
+.last-news div.con{max-width:100%;height:100%;background-size:cover;background-image:url(../photos/DSC_0692.jpg)}
+.last-news .con> div{background-color:rgba(0,0,0,.9);height:100%}
+.last-news> .con> div> h2{padding-top:50px;color:#fff;text-align:center;font-size:2em}
+.last-news> .con> div> h2> span{margin-top:10px;border-bottom:2px solid #00a651;padding-bottom:10px}
+.last-news> .con> div> .sub-gallery{height:400px;width:80%;margin:30px auto;overflow:hidden}
+.last-news> .con> div> .sub-gallery> .photos{width:2800px;animation:sasa 20s linear infinite;margin-left:-550px;height:100%}
+.last-news> .con> div> .sub-gallery> .photos> .pho{margin-top:100px;width:500px;transition:all 1s ease-in-out;padding:20px;height:60%;float:left;background color:}
+.last-news> .con> div> .sub-gallery> .photos> .pho.active{transform:scale(1.5)}
+.last-news> .con> div> .sub-gallery> .photos> .pho img{width:100%;height:100%}
+.last-news> .con> div> h2:last-of-type{padding:10px;font-size:1.8em}
+.last-news> .con> div> .th{width:80px;margin:20px auto}
+.last-news> .con> div> .th span{transition:all 1s ease-in-out;display:block;width:10px;height:10px;float:left;border-radius:50px;margin-right:10px;background-color:#fff;cursor:pointer}
+.last-news> .con> div> .th span.active,.last-news> .con> div> .th span:hover{background-color:#00a651}
+@keyframes sasa{0%{margin-left:300px}
+100%{margin-left:-1350px}}
+.sub-sections{margin-top:50px;margin-bottom:50px}
+.sub-sections> .con{text-align:center}
+.sub-sections> .con> .sub{padding-bottom:30px;transition:all .5s ease-in-out;float:left;width:25%}
+.sub-sections> .con> .sub:hover{box-shadow:0 0 2px #717070}
+.sub-sections> .con> .sub> h2> span:first-of-type{color:#00b755}
+.sub-sections> .con> .sub> h2> span:nth-of-type(2){color:#01cf65}
+.sub-sections> .con> .sub> h2> span:last-of-type{color:#00f176}
+.sub-sections> .con> .sub> p{color:#636363}
+.school-gallery{margin-top:50px;margin-bottom:50px}
+.school-gallery> h2{color:#353535;text-align:center;padding-bottom:35px;font-size:2em}
+.school-gallery> h2 span{width:2px;margin-top:10px;border-bottom:2px solid #00a651;padding-bottom:10px}
+.school-gallery> .con> div{height:430px}
+.school-gallery> .con> div> div{box-shadow:0 0 2px #717070;overflow:hidden;float:left;width:21%;height:48.8%}
+.school-gallery> .con> div> div:first-of-type{width:34%;height:100%;margin:0}
+.school-gallery> .con> div> div:nth-of-type(2),.school-gallery> .con> div> div:nth-of-type(3),.school-gallery> .con> div> div:nth-of-type(4){margin-bottom:1%}
+.school-gallery> .con> div> div:nth-of-type(2),.school-gallery> .con> div> div:nth-of-type(3),.school-gallery> .con> div> div:nth-of-type(4),.school-gallery> .con> div> div:nth-of-type(5),.school-gallery> .con> div> div:nth-of-type(6),.school-gallery> .con> div> div:nth-of-type(7){margin-left:1%}
+.school-gallery> .con> div> div img{width:100%;height:100%}
+.school-gallery> a{color:#00a651;border-bottom:1px solid #00a651;padding:0;margin:10px;margin-right:100px;padding-bottom:2px;font-size:.8em;float:right}
+.jobs{padding-top:50px;padding-bottom:50px}
+.jobs .con{padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px}
+.jobs> .con> section{width:50%;float:left}
+.jobs> .con> section h2{color:#353535;margin-bottom:30px;font-size:2em;padding:10px}
+.jobs> .con> section:first-of-type> div> form> label{width:70%;padding:10px;display:block;font-size:.8em;color:#797979}
+.jobs> .con> section:first-of-type> div> form> label span{padding:3px;border-bottom:2px solid #00a651}
+.jobs> .con> section:first-of-type> div> form> label sup{color:red}
+.jobs> .con> section:first-of-type> div> form> input,.jobs> .con> section:first-of-type> div> form> textarea{width:70%;padding:10px;display:block;border-color:transparent;outline-color:transparent;border-radius:5px;box-shadow:0 0 2px #717070}
+.jobs> .con> section:first-of-type> div> form> input[type=submit]{font-size:1em;margin-top:30px;color:#fff;border-radius:50px}
+.jobs> .con> section:first-of-type> div> form> textarea{resize:none}
+.jobs> .con> section:last-of-type> h2{width:90%;text-align:left}
+.jobs> .con> section:last-of-type> h2 span a{padding:10px;font-size:.5em;float:right;color:#00a651}
+.jobs> .con> section:last-of-type> div> .sub{overflow:hidden;box-shadow:0 0 2px #717070;width:100%;border-radius:5px;padding:10px;margin-top:20px;margin-bottom:20px}
+.jobs> .con> section:last-of-type> div> .sub> p{padding:15px;float:left;font-size:1.2em;color:#797979}
+.jobs> .con> section:last-of-type> div> .sub> div{overflow:hidden;float:right;padding:10px}
+.jobs> .con> section:last-of-type> div> .sub> div a{display:block;float:left;padding:10px;font-size:.8em;padding-right:30px;padding-left:30px}
+.jobs> .con> section:last-of-type> div> .sub> div a:first-of-type{color:#00a651;border-bottom:1px solid #00a651;padding:0;margin:10px;padding-bottom:2px;font-size:.8em}
+.jobs> .con> section:last-of-type> div> a{color:#00a651;border-bottom:1px solid #00a651;padding:0;margin:10px;padding-bottom:2px;font-size:.8em;float:right}
+footer{background-color:#535353;color:#fff;padding-top:50px}
+footer ul li{padding-top:5px;padding-bottom:5px;margin-top:5px;margin-bottom:5px;list-style-type:none}
+footer p,footer ul li{color:#f3f3f3;font-size:.8em}
+footer h3{padding-top:15px;padding-bottom:15px}
+footer> div.first> div.container> aside,footer> div.first> div.container> div{width:20%;float:left}
+footer> div.first> div.container> div:first-of-type{width:15%;padding-top:30px}
+footer> div.first> div.container> aside:first-of-type{width:22%}
+footer> div.first> div.container> aside:first-of-type ul li i{padding-right:5px}
+footer> div.first> div.container> aside:last-of-type,footer> div.first> div.container> aside:nth-of-type(2){width:15%}
+footer> div.first> div.container> div:last-of-type{width:30%}
+footer> div.first> div.container> div:nth-of-type(2){display:none}
+footer> div.first> div.container> div:last-of-type p{padding-top:10px;padding-bottom:30px}
+footer> div.first> div.container> div:last-of-type ul li{margin-top:30px;margin-bottom:20px;font-size:.9em;float:left;padding:5px;margin-left:5px;margin-right:5px}
+footer> div.last{background-color:#2e2e2e}
+footer> div.last> div.container> div.copy{text-align:center;padding:10px}
+footer> div.last> div.container> div.copy> p{font-size:10px;font-weight:100}
+@media (min-width:992px) and (max-width:1199px){header> nav{height:65px}
+div.content> div.statestics> div.con> div> section{text-align:center;width:40%;margin-bottom:20px}
+div.content> div.statestics> div.con> div> section> span{width:80%;margin:20px auto}}
+@media (min-width:767px) and (max-width:991px){header> nav> div.container> ul:last-of-type> li button{position:absolute;top:15px;right:30px}
+header> nav> div.container> a> img{position:absolute;left:30px}
+.previous_btn{left:50px;top:-300px}
+.next_btn{right:50px;top:-300px}
+.sub-sections> .con> .sub{text-align:center;width:48%;margin-left:2%;margin-bottom:20px}}
+@media (max-width:991px){header> nav> div.container> ul{margin-top:200px}
+header> nav> div.container> ul> li{float:none;text-align:left;margin:5px;border:1px solid #ddd}
+header> nav> div.container> ul{width:20%;height:60px;float:left;margin-left:0}
+header> nav> div.container> ul li{border:1px solid #00a651;border-radius:10px;transition:all .5s ease-in-out}
+header> nav> div.container> ul li:hover{background:#fff}
+header> nav> div.container> ul:first-of-type> li:last-of-type{margin-left:5px}
+header> nav> div.container> ul:last-of-type{float:right;margin-right:30px}
+header> nav> div.container> ul:last-of-type li{text-align:center}
+header> nav> div.container> ul:last-of-type> li:last-of-type{width:auto;padding:5px;position:absolute;top:5px;right:15px}
+header> nav> div.container> ul:last-of-type> li:last-of-type:hover span{border-color:#00a651}
+div.content> div.statestics> div.con> div> section{text-align:center;width:40%;margin-bottom:20px}
+div.content> div.statestics> div.con> div> section> span{width:80%;margin:20px auto}
+.previous_btn{left:50px;top:-300px}
+.next_btn{right:50px;top:-300px}
+footer> div.first> div.container> div:nth-of-type(2){display:block}
+footer> div.first> div.container> div{float:none;min-width:130px;margin:auto;display:block}
+footer> div.first> div.container> aside{text-align:center;min-width:33%}
+footer> div.first> div.container> div:last-child{margin:0 auto;display:block;width:100%;text-align:center}}
+@media (max-width:768px){header> .slides> div.slide_container section> div.container> h2{width:100%}
+header main.scroll .container> img{margin-top:90px}
+header main.scroll .container> span{margin-top:50px}
+div.content> div.statestics> div.con> div> section{width:100%;margin:20px auto;float:none}
+.our-activites> .con .slider .slide_viewer .slide div:first-child{display:none}
+.our-activites> .con .slider .slide_viewer .slide div:last-child{width:100%}
+.sub-sections> .con> .sub{text-align:center;width:80%;margin:20px auto;float:none}
+.school-gallery> .con> div{width:90%;margin:0 auto}
+.school-gallery> .con> div> div{width:49%}
+.school-gallery> .con> div> div:first-of-type{width:47%;height:99.5%;margin-bottom:2%}
+.school-gallery> .con> div> div:nth-of-type(2),.school-gallery> .con> div> div:nth-of-type(3),.school-gallery> .con> div> div:nth-of-type(4),.school-gallery> .con> div> div:nth-of-type(5),.school-gallery> .con> div> div:nth-of-type(6),.school-gallery> .con> div> div:nth-of-type(7){margin-bottom:2%}
+.school-gallery> .con> div> div:nth-of-type(4),.school-gallery> .con> div> div:nth-of-type(5),.school-gallery> .con> div> div:nth-of-type(6),.school-gallery> .con> div> div:nth-of-type(7){width:47%;margin:1%}
+.jobs> .con> section h2{text-align:center}
+.jobs> .con> section{float:none}
+.jobs> .con> section:first-child{width:75%;margin:auto}
+.jobs> .con> section:first-child input,.jobs> .con> section:first-child label,.jobs> .con> section:first-child textarea{width:100%;margin:auto}
+.jobs> .con> section:nth-child(2){width:100%;margin:50px auto}}
